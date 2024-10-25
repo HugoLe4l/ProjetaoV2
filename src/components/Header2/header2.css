@@ -1,0 +1,152 @@
+#header2{
+    padding: 0.5% 5%;
+    border-bottom: 0.5px solid rgba(167, 167, 167, 0.342);
+    box-shadow: 0px 0px 7px rgba(167, 167, 167, 0.342);
+    position: fixed;
+    width: 100%;
+    transition: 0.2s;
+    z-index: 10;
+    background: white;
+}
+#header2.header-height{
+    padding-bottom: 0.5%;
+    border-bottom: 0.5px solid rgba(254, 15, 15, 0);
+}
+.HeaderTop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.HeaderBoxLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.HeaderBoxLeft img{
+    width: 70px;
+}
+.HeaderBoxLeft h4{
+    font-size: 20px;
+    margin-top: 7%;
+    font-weight: 600;
+    color: var(--cor-theme);
+}
+.HeaderboxRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.HeaderboxRight #text1{
+    font-size: 12px;
+    text-shadow: 0px 0px 0.5px black;
+    font-weight: 400;
+    padding: 5px 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#text1:hover{
+    background-color: rgb(214, 214, 214);
+}
+.HeaderboxRight #icon_idioma{
+    font-size: 15px;
+}
+.HeaderboxRight .UserBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+    color: rgb(158, 158, 158);
+    position: relative;
+}
+.UserBox #icon1{
+    font-size: 35px;
+}
+.UserBox #icon2{
+    font-size: 15px;
+    transition: 0.2s;
+}
+.UserBox:hover{
+    color: var(--cor-theme);
+}
+.UserBoxMenuDrop{
+    position: absolute;
+    top: 100%;
+    right: 5%;
+    z-index: 5;
+}
+.UserBox:hover .UserMenuDropContent{
+    height: 270px;
+}
+.UserBox:hover #icon2{
+    transform: rotate(180deg);
+}
+.UserBoxMenuDrop .UserMenuDropContent{
+    width: 300px;
+    height: 0px;
+    background: rgb(255, 255, 255);
+    border-radius: 0px;
+    box-shadow: 0px 0px 4px rgb(153, 153, 153);
+    transition: 0.3s;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    gap: 5px;
+}
+
+
+
+#header2 .HeaderSearch{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    height: 60px;
+    position: absolute;
+    top: 42%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    transition: 0.4s;
+    scale: 0.7;  
+}
+#header2 .searchBox{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#header2 .searchBox input{
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(92, 92, 92, 0.473);
+    padding: 0px 40px;
+    padding-right: 80px;
+    font-weight: 300;
+    font-size: 16px;
+}
+#header2 .searchBox #btn-search{
+    position: absolute;
+    top: 50%;
+    right: -2%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    padding: 5px 12px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 5px rgb(124, 124, 124);
+    cursor: pointer;
+    transition: 0.3s;
+}
+#btn-search:hover{
+    color: white;
+    box-shadow: 0px 0px 8px var(--cor-theme);
+    background: var(--cor-theme);
+}

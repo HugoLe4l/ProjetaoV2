@@ -1,0 +1,28 @@
+.Links_Categories{
+    text-decoration: none;
+    color: black;
+}
+.box-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: 0.2s;
+}
+.box-option i{
+    font-size: 17px;
+}
+.box-option p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.box-option:hover{
+    scale: 1.090;
+    border-bottom: solid 1px rgb(168, 168, 168);
+}
+.box-option:hover i{
+    color: var(--cor-theme);
+}
+.box-option:hover p{
+    color: var(--cor-theme);
+}

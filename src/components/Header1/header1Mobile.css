@@ -1,0 +1,26 @@
+@media screen and (max-width: 800px) {
+
+    #header1{
+        padding-bottom: 0px;
+        border-bottom: 0.5px solid rgba(255, 0, 0, 0);
+        box-shadow: 0px 0px 7px rgba(200, 20, 20, 0);
+
+    }
+    .HeaderBoxLeft h4{
+        display: none;
+    }
+    #header1 .HeaderSearch{
+        display:none;
+    }
+    .HeaderboxRight{
+        display: none;
+    }
+    .mobile_menu_box{
+        display: flex;
+    }
+
+    #header1.header-height{
+        padding-bottom: 0%;
+        box-shadow: 0px 0px 7px rgba(167, 167, 167, 0);
+    }
+}

@@ -1,0 +1,59 @@
+.MenuUserDrop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.MenuUserDropBox1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    gap: 30px;
+}
+.MenuUserDropBox1 img{
+    width: 80px;
+}
+.box1-text .text1{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    
+}
+.sub-menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 8px 10px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+   
+}
+.sub-menu-link p{
+    font-weight: 400;
+    font-size: 13px;
+}
+.sub-menu-link:hover{
+    background: rgb(212, 212, 212);
+}
+.sub-menu-link:hover p, .sub-menu-link:hover span{
+    font-weight: 500;
+    color: var(--cor-theme);
+}
+.MenuUserDrop hr{
+    width: 80%;
+    margin-bottom: 10px;
+    border: rgba(172, 172, 172, 0.411) solid 1px;
+}
